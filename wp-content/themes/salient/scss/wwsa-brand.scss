@@ -1,0 +1,76 @@
+/*Colors*/
+$green: #4ea700;
+$blue: #1e3b4c;
+$blue-text: #0a4c70;
+/*TYPOGRAPHY*/
+.row .col.section-title h2{font-family: 'Open Sans'; font-size:32px;}
+.row .col.section-title { padding-bottom:1.5em; margin-bottom:1em;}
+/*Slider*/
+.swiper-slide .button a{
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-family: 'Open Sans';
+  font-size:16px;
+  letter-spacing:normal;
+  padding: 10px 20px;
+}
+.swiper-slide .content h2 span{ display:block; margin-top:-.3em;}
+/*HEADER*/
+#page-header-bg .row h1{ font-size:60px; margin-bottom:.2em}
+#page-header-bg .row span{ font-weight:100;}
+/*HOME*/
+.stats-section{
+  font-size:18px;
+  .title{ font-size:36px; font-weight:300; color:$blue-text; line-height:2em;}
+}
+.stat-bar-left .nectar-progress-bar:first-child{ 
+  background:url(/wp-content/uploads/icons/icon_7134.svg);
+  background-repeat:no-repeat;
+  background-position:left bottom;
+  background-size:32px;
+}
+.stat-bar-left .nectar-progress-bar:last-child{ 
+  background:url(/wp-content/uploads/icons/icon_9977.svg);
+  background-repeat:no-repeat;
+  background-position:1px bottom;
+  background-size:29px;
+}
+.stat-bar-right .nectar-progress-bar:first-child{ 
+  background:url(/wp-content/uploads/icons/icon_35930.svg);
+  background-repeat:no-repeat;
+  background-position:2px bottom;
+  background-size:27px;
+}
+.stat-bar-right .nectar-progress-bar:last-child{ 
+  background:url(/wp-content/uploads/icons/icon_35625.svg);
+  background-repeat:no-repeat;
+  background-position:left bottom;
+  background-size:32px;
+}
+.stat-bar-left .nectar-progress-bar, .stat-bar-right .nectar-progress-bar{ 
+  padding-left:48px;
+  strong{display:none;}
+  p{ position:absolute; color:#fff; z-index:10; left:62px;}
+}
+.nectar-progress-bar span, .nectar-progress-bar .bar-wrap{
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  height:32px;
+}
+.quality-section{
+  padding-top:72px;
+  p{ font-size:22px; font-weight:300; font-family:inherit}
+}
+.products-section, .wsg-copy{
+  ul{ padding:0; margin:0;}
+  ul li{ padding-left:48px; margin-bottom:12px; list-style:none; background:url(/wp-content/uploads/icons/icon_9978.svg); background-repeat:no-repeat; background-position:left center}
+}
+.besco-section{
+  padding:48px;
+  p{ font-size:18px; font-family:inherit;}
+}
+/*FOOTER*/
+#footer-outer a{ line-height:1.4em;}
+/*IMPORTS*/ 
+@import "products";
+@import "availability-tables";

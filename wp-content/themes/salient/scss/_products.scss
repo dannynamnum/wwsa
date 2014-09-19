@@ -1,0 +1,80 @@
+/*Safety Data*/
+.material-safety{
+  font-size:.75em;
+  h1{ font-size:1.5em; margin-top:16px; text-transform:uppercase; color:#666; border-bottom:solid 1px #ccc;}
+  .span_3 {font-weight:400;}
+}
+/*Tables*/
+.availability-table{
+ img{width:1.5em !important; margin-bottom:0 !important; vertical-align:middle;}
+ td{ text-align:center; vertical-align:top; border-bottom:solid 1px #ccc; border-right:dashed 1px #ccc; padding:.5em; line-height:1em;}
+ td:first-child{border-right:solid 1px #ccc;}
+ td:last-child{border-right:solid 1px #ccc;}
+}
+/*MBSG*/
+.wsg-saw img{ vertical-align:bottom;}
+/*DESCRIPTIONS*/
+.team-member p.description{ border-bottom:none; font-size:14px; line-height:1.5em;}
+/*FULL WITH SUMMRY BOXES*/
+.summary-box div p{ line-height:24px !important;}
+/*
+BOND SYSTEMS
+*/
+.bond-systems{
+  .resin, .vitrified, .metal, .single-layer{
+    display:block;
+    clear:both;
+    overflow:hidden;
+    padding:16px;
+    color:#fff;
+  }
+  .resin {
+    background-color: #4ea700;
+  }
+  .vitrified {
+    background-color: #006f63;
+  }
+  .metal {
+    background-color: #008aaa;
+  }
+  .single-layer {
+    background-color: #1e3b4c;
+  }
+  h4{
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color:#fff;
+  }
+  p{
+   font-size:12px;
+   line-height:1.5em;
+   margin-bottom:24px;
+  }
+}
+.bond-tag {
+  color:#fff;
+  font-weight:normal;
+  margin:0 !important;
+  li{
+    list-style-type:square !important;
+    list-style-position:inside !important;
+    padding-left:10px;
+    font-size:12px;
+    font-weight:normal;
+  }
+  .bond-tag-rb{
+    background-color:#4ea700;
+  }
+  .bond-tag-vb{
+    background-color: #006f63;
+  }
+  .bond-tag-mb{
+    background-color: #008aaa;
+  }
+  .bond-tag-slb{
+    background-color: #1e3b4c;
+  }
+}
+.bond-product .wpb_wrapper > div{ margin:0;}
