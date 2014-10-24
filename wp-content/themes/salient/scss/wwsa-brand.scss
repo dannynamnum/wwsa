@@ -2,9 +2,6 @@
 $green: #4ea700;
 $blue: #1e3b4c;
 $blue-text: #0a4c70;
-/*TYPOGRAPHY*/
-.row .col.section-title h2{font-family: 'Open Sans'; font-size:32px;}
-.row .col.section-title { padding-bottom:1.5em; margin-bottom:1em;}
 /*Slider*/
 .swiper-slide .button a{
   -webkit-border-radius: 3px;
@@ -63,7 +60,8 @@ $blue-text: #0a4c70;
 }
 .products-section, .wsg-copy{
   ul{ padding:0; margin:0;}
-  ul li{ padding-left:48px; margin-bottom:12px; list-style:none; background:url(/wp-content/uploads/icons/icon_9978.svg); background-repeat:no-repeat; background-position:left center}
+  ul li{ font-size:18px; padding-left:48px; margin-bottom:12px; list-style:none; background:url(/wp-content/uploads/icons/icon_9978.svg); background-repeat:no-repeat; background-position:left center}
+  a{ color:#fff;}
 }
 .besco-section{
   padding:48px;
@@ -71,6 +69,7 @@ $blue-text: #0a4c70;
 }
 /*FOOTER*/
 #footer-outer a{ line-height:1.4em;}
-/*IMPORTS*/ 
+.textwidget{ float:none;}
+/*IMPORTS*/
 @import "products";
 @import "availability-tables";
